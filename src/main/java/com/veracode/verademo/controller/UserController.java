@@ -58,7 +58,8 @@ import com.veracode.verademo.utils.UserFactory;
 @Scope("request")
 public class UserController {
 	private static final Logger logger = LogManager.getLogger("VeraDemo:UserController");
-
+	public String AdminPass = "Password123!"
+	
 	@Autowired
 	ServletContext context;
 
